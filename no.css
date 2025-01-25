@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+.m-f{
+	font-family: "Aclonica", serif;
+	text-transform: uppercase;
+}
+body{
+	background-image: url(n.png);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	display: flex;
+}
+main{
+	position: relative;
+	top: 0%;
+	left: 0%;
+	width: auto;
+}
+
+h1, .intro-content h1{
+	color: black;
+}
+h2{
+	color: white;
+}
+
+.container{
+	width: 70%;
+	margin: 0 auto;
+}
+
+.header{
+	height: 100vh;
+	color: #ffffff;
+	line-height: 50px;
+}
+
+.header-content{
+	padding-top: 40vh;
+	text-align: right;
+}
+h2 span{
+	color: yellow;
+	line-height: 100px;
+
+}
+.btn{
+	background-color: transparent;
+	border: 3px solid #ffffff;
+	padding: 15px 35px;
+	font-weight: bolder;
+	text-decoration: none;
+	color: #ffffff;
+	margin-right: 15px;
+	transition: all 800ms ease-in-out ;
+}
+.btn-fill{
+	background-color: #ffffff; 
+	color: #000000;
+
+}
+.btn-fill:hover{
+	background-color: yellow;
+	border-color: transparent;
+
+}
+.btn-trans:hover{
+	background-color: yellow;
+	border-color: transparent;
+}
+.intro{
+	background-color: #ddd8d8;
+	padding: 15vh 0;
+}
+.intro-content{
+	height: 50vh ;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.intro-content div{
+	width: 50%;
+}
+
+.intro-text p{
+	text-align: justify;
+	color: #828282;
+	line-break: height 40px; ;
+}
+img{
+	height: 350px;
+	width: 450px;
+	margin-top: 10px;
+	margin-left: 150px;
+	border-radius: 100px;
+	gap: 10px;
+}
+.services{
+	background-color: #fbff00;
+	height: 50vh;
+	clip-path: polygon(0 0, 15% 0, 50% 20%, 85% 0, 100% 0, 100% 100%,0 100%, 0 0);
+	margin-top: -15vh;
+}
+.service-content{
+	display:flex;
+	flex-wrap: wrap;
+}
+
+
+.bucket{
+	width: 100%;
+	margin: 150px 3%;
+	color: rgb(255, 230, 0);
+
+}
+.bucket p{
+	color: black;
+}
+.contact{
+	background-color: #ffffff;
+	padding: 10vh 0;
+	text-align: center;
+}
+input[type='text'], input[type=email], textarea{
+	width: 100%;
+	padding: 12%
+	border: color 1%;
+}
+.contact-section div{
+	padding: 10px;
+}
+
+.btn-submit{
+	background-color: black;
+	color: #ffffff;
+}
