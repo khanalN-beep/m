@@ -1,10 +1,187 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Welcome to my website</title>
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="/no.css"/>
 	<!-- <link rel="stylesheet" href="style.css"> -->
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+		.m-f {
+			font-family: "Aclonica", serif;
+			text-transform: uppercase;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			background-image: url(n.png);
+			background-size: cover;
+			background-attachment: fixed;
+			position: relative;
+			display: flex;
+		}
+
+		main {
+			position: relative;
+			top: 0%;
+			left: 0%;
+			width: auto;
+		}
+
+		h1, .intro-content h1 {
+			color: black;
+		}
+
+		h2 {
+			color: white;
+		}
+
+		.container {
+			width: 70%;
+			margin: 0 auto;
+		}
+
+		.header {
+			height: 100vh;
+			color: #ffffff;
+			line-height: 50px;
+		}
+
+		.header-content {
+			padding-top: 40vh;
+			text-align: right;
+		}
+
+		h2 span {
+			color: yellow;
+			line-height: 100px;
+		}
+
+		.btn {
+			background-color: transparent;
+			border: 3px solid #ffffff;
+			padding: 15px 35px;
+			font-weight: bolder;
+			text-decoration: none;
+			color: #ffffff;
+			margin-right: 15px;
+			transition: all 800ms ease-in-out;
+		}
+
+		.btn-fill {
+			background-color: #ffffff;
+			color: #000000;
+		}
+
+		.btn-fill:hover {
+			background-color: yellow;
+			border-color: transparent;
+		}
+
+		.btn-trans:hover {
+			background-color: yellow;
+			border-color: transparent;
+		}
+
+		.intro {
+			background-color: #ddd8d8;
+			padding: 15vh 0;
+		}
+
+		.intro-content {
+			height: 50vh;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.intro-content div {
+			width: 50%;
+		}
+
+		.intro-text p {
+			text-align: justify;
+			color: #828282;
+			line-break: height 40px;
+		}
+
+		img {
+			height: 350px;
+			width: 450px;
+			margin-top: 10px;
+			margin-left: auto;
+			margin-right: auto;
+			border-radius: 100px;
+			gap: 10px;
+		}
+
+		.services {
+			background-color: #fbff00;
+			height: auto;
+			padding: 5vh 10%;
+			margin-top: -15vh;
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.service-container {
+			display: flex;
+			width: 100%;
+			justify-content: space-between;
+		}
+
+		.service-content {
+			width: 45%;
+			color: rgb(255, 230, 0);
+			text-align: left;
+		}
+
+		.service-content h1 {
+			color: black;
+		}
+
+		.service-content p {
+			color: black;
+		}
+
+		.contact-form {
+			width: 45%;
+			background-color: white;
+			padding: 20px;
+			border-radius: 10px;
+		}
+
+		.contact-form h1 {
+			color: black;
+		}
+
+		input[type='text'], input[type='email'], textarea {
+			width: 100%;
+			padding: 12px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			margin-bottom: 10px;
+		}
+
+		.btn-submit {
+			background-color: black;
+			color: #ffffff;
+			border: none;
+			padding: 10px 20px;
+			cursor: pointer;
+		}
+
+		.btn-submit:hover {
+			background-color: yellow;
+			color: black;
+		}
+	</style>
 </head>
 <body>
 	<main>
@@ -12,61 +189,58 @@
 		<div class="header">
 			<div class="container">
 				<div class="header-content">
-					<h1 class="m-f">Welcome  to  my  page</h1>
-					<h2>We are <span> ready to </span> lunch our new page</h2>
-					<a href="#" class="btn btn-trans">Lets Begain</a>
+					<h1 class="m-f">Welcome to my page</h1>
+					<h2>We are <span>ready to</span> launch our new page</h2>
+					<a href="#" class="btn btn-trans">Let's Begin</a>
 					<a href="#" class="btn btn-fill">Yahoo!!!</a>
 				</div>
 			</div>
 		</div>
 		<!--header section end-->
+
 		<!--intro section start-->
 		<section class="intro">
-			<div  class="contentainer intro-content">
+			<div class="contentainer intro-content">
 				<div class="fff">
 					<img src="fff.png" width="100%">
 				</div>
 				<div class="intro-text">
 					<h1 class="m-f">One Football</h1>
 					<p>
-						Football is a family of team sports that involve, to varying degrees, kicking a ball to score a goal. Unqualified, the word football generally means the form of football that is the most popular where the word is used. Sports commonly called football include association football (known as soccer in Australia, Canada, South Africa, the United States, and sometimes in Ireland and New Zealand); Australian rules football; Gaelic football; gridiron football (specifically American football, arena football, or Canadian football); International rules football; rugby league football; and rugby union football.There are a number of references to traditional, ancient, or prehistoric ball games played in many different parts of the world.[2][3][4] Contemporary codes of football can be traced back to the codification of these games at English public schools during the 19th century, itself an outgrowth of medieval football.[5][6] The expansion and cultural power of the British Empire allowed these rules of football to spread to areas of British influence outside the directly controlled empire.[7] By the end of the 19th century, distinct regional codes were already developing: Gaelic football, for example, deliberately incorporated the rules of local traditional football games in order to maintain their heritage.[8] In 1888, the Football League was founded in England, becoming the first of many professional football associations. During the 20th century, several of the various kinds of football grew to become some of the most popular team sports in the world.[9]
+						Football is a family of team sports that involve, to varying degrees, kicking a ball to score a goal. Unqualified, the word football generally means the form of football that is the most popular where the word is used. Sports commonly called football include association football (known as soccer in Australia, Canada, South Africa, the United States, and sometimes in Ireland and New Zealand); Australian rules football; Gaelic football; gridiron football (specifically American football, arena football, or Canadian football); International rules football; rugby league football; and rugby union football. There are a number of references to traditional, ancient, or prehistoric ball games played in many different parts of the world. Contemporary codes of football can be traced back to the codification of these games at English public schools during the 19th century, itself an outgrowth of medieval football. The expansion and cultural power of the British Empire allowed these rules of football to spread to areas of British influence outside the directly controlled empire. By the end of the 19th century, distinct regional codes were already developing: Gaelic football, for example, deliberately incorporated the rules of local traditional football games in order to maintain their heritage. In 1888, the Football League was founded in England, becoming the first of many professional football associations. During the 20th century, several of the various kinds of football grew to become some of the most popular team sports in the world.
 					</p>
 				</div>
 			</div>
-
 		</section>
+		<!--intro section end-->
 
-
-		<!--inro section end-->	
+		<!--services and register section start-->
 		<section class="services">
-			<div class="container service-content">
-				<div class="bucket">
+			<div class="service-container">
+				<div class="service-content">
 					<h1>Services</h1>
-					<p>Football is a family of team sports that involve, to varying degrees, kicking a ball to score a goal. One football helps the youth, players and coaches improve their skills and knowledge of the sport. 
-					</p>
+					<p>Football is a family of team sports that involve, to varying degrees, kicking a ball to score a goal. One football helps the youth, players and coaches improve their skills and knowledge of the sport.</p>
+				</div>
+				<div class="contact-form">
+					<h1 class="m-f">Register your name here</h1>
+					<form method="post" action="#">
+						<div class="full name">
+							<input type="text" name="full name" placeholder="Your name" required> 
+						</div>
+						<div class="Email">
+							<input type="email" name="Email" placeholder="Email" required> 
+						</div>
+						<div class="Message">
+							<textarea name="Message" placeholder="Message" required></textarea>
+						</div>
+						<div class="Message">
+							<input type="submit" name="Submit" class="btn btn-submit" value="SEND MESSAGE"> 
+						</div>
+					</form>
 				</div>
 			</div>
 		</section>
-		<section class="contact">
-			<div class="container contact-section">
-				<h1 class="m-f">Register your name here</h1>
-				<form method="post" action="#">
-					<div class="full name">
-						<input type="text" name="full name" placeholder="your name" required> 
-					</div>
-					<div class="Email">
-						<input type="Email" name="Email" placeholder="Email" rows="6" required> 
-					</div>
-					<div class="Message">
-						<textarea="Message" name="Message" placeholder="Message" required> </textarea>
-					</div>
-					<div class="Message">
-						<input type="Submit" name="Submit" class="btn btn-submit" value="SENT MESSAGE"> 
-					</div>
-				</form>
-			</div>
-
-		</section>
+		<!--services and register section end-->
 	</main>
 </body>
 </html>
